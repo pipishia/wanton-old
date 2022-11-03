@@ -1,0 +1,230 @@
+html {
+    background-color: #ebebeb;
+      box-sizing: border-box;
+    }
+    
+    *, *::before, *::after {
+      box-sizing: inherit;
+    }
+    .background{
+      font-family: 'Fruktur', cursive;
+      margin-left:auto;
+      margin-right:auto;
+      background-color: #ebebeb;
+      background-size: cover;
+    }
+    .container {
+      margin: 0 auto;
+      width: 2000px;
+      height: 1000px;
+      background-color: #ffffff;
+     padding:0 0px 0 0;
+  }
+  .topbox{
+    width: 1400px;
+    height: 60px;
+    background-color: #ebebeb;
+  }
+  .Header {
+      display:flex;
+      justify-content: space-between;
+      width: 1100px;
+      height: 100px;
+      
+  }
+  
+  .top_bar {
+      display: flex;
+      height: 70px;
+      margin:0px 0 0px 0px;
+      width: 1100px;
+    }
+  .title {
+      width: 300px;
+      height: 100px;
+      margin: 20px  00px 0px 0;
+      padding: 9px 0 3px 0;
+      font-size: 44px;
+      font-weight: 900;
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: normal;
+      color:#000000;
+    }
+    .btn{
+      height: 25px;
+      width: 150px;
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 0px;
+      margin: 70px 0px 12px 80px;
+      white-space:nowrap;
+      border: none;
+  }
+  .btn:hover{
+    transform:scale(1.1);
+  }
+  .top-icon{
+    display: flex;
+    margin: 50px 0px 12px 280px;
+  
+  }
+    .top-cart-icon{
+      width: 35px;
+    height: 35px;
+    object-fit: contain;
+    }
+    .top-user-icon{
+      width: 35px;
+    height: 35px;
+    object-fit: contain;
+    margin:0 0 0 20px;
+    }
+    .top-options-icon{
+      width:35px;
+    height: 35px;
+    object-fit: contain;
+    margin:0 0 0 15px;
+    }
+    
+    .bxslider img{
+        width:100%;
+        height:100%;
+        }
+    
+    .bx-wrapper img{
+        display: inline !important;
+        }
+    
+    
+    
+    .makima {
+      font-family: 'Fruktur', cursive;
+        width: 1300px;
+        height: 700px;
+        display: flex;
+        margin: 100px 0px 0 0px;
+    
+      }
+
+
+      .loginpic {
+        width: 500px;
+        height: 500px;
+        margin: 50px 0px 0 60px;
+        background-color: #9b9a9a;
+      }
+
+     .loginplace{
+        width: 700px;
+        height: 500px;
+        margin: 50px 0 0 0;
+        color: #260842;
+        background-color: #9b9a9a;
+        
+     }
+     
+      .loginbox{
+
+        width: 300px;
+        height: 80px;
+        margin: 0 100px 0 200px;
+
+     }
+
+
+     .loginword{
+        margin-top: 50px;
+        margin-bottom: 10px;
+    
+    }
+    .loginplacebox{
+        width: 700px;
+        height: 400px;
+        margin-left:-200px;
+     }
+
+     form{
+        width: 300px;
+        height: 300px;
+
+
+     }
+
+     .glabel{
+     margin-left:250px;
+     margin-top:20px;
+     }
+    
+     .plabel{
+        margin-left:250px;
+        margin-top:20px;
+     }
+    
+     input{
+      border: 2px solid #a30dfb4a;
+      background-color: #eeeaf0ea;
+
+     }
+
+     input:hover{
+      border: 2px solid #a30dfb4a;
+      background-color: #a30dfb4a;
+
+     }
+     .submit{
+      width: 100px;
+      height: 50px;
+      margin-left:295px;
+      margin-top:50px;
+      border: 2px solid #a30dfb4a;
+      background-color: #eeeaf0ea;
+     }
+
+     .submit:hover{
+      width: 100px;
+      height: 50px;
+      margin-left:295px;
+      margin-top:50px;
+      border: 2px  #a30dfb4a;
+      background-color: #a30dfb4a;
+     }
+
+
+    .box_footer {
+        width: 1320px;
+        height: 150px;
+        margin: auto;
+        padding:auto;
+        background-color: #b0afaf;
+        border: 4px solid #000000;
+        font-family: Arial;
+        color: #ffffff;
+        padding: 5px 8px;
+        text-decoration:none;
+      }
+      .footext{
+        height:50px;
+        width:400px;
+        display: flex;
+        margin:60px 0 0 420px;
+      }
+      .foot-pic{
+        height: 30px;
+        width: 30px;
+        display: flex;
+        justify-content:space-between;
+        margin: 0 40px;
+      }
+      .trend{
+        height: 25px;
+        width: 300px;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 0px;
+        margin: 120px 0 0 280px;
+      }
+      .holy{
+        height: 280px;
+        width: 200px;
+      }
